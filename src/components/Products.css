@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.prodContainer{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}   
+.prodBox{
+    border: 2px solid red;
+}
+.prodThumb{
+    border: 1px solid;
+    padding: 15px;
+}
+.prodThumb:hover{
+    padding: 0;
+}
