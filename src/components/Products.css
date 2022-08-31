@@ -33,14 +33,12 @@
   justify-content: space-between;
   margin: 5px 10px;
 }
-/* .addToCartBtn{
-    font-size: 18px;
-    font-weight: bold;
-    color: red;
-    border: 2px solid red;
-    cursor: pointer;
-    padding: 4px 8px;
-} */
+.addToCartBtn {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
 .sortingDiv {
   text-align: center;
   margin: 10px;
@@ -55,42 +53,40 @@
   border: 1px solid;
 }
 
-.CartMain{
-    /* border: 2px solid red; */
-    width: 90%;
-    margin:20px auto;
-    display: flex;
+.CartMain {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
 }
-.CartProdBox{
-    border: 2px solid;
-    display: flex;
-    gap: 20px;
-    margin: 5px;
-    padding: 5px;
-    /* width: fit-content; */
+.CartProdBox {
+  border: 2px solid;
+  display: flex;
+  gap: 20px;
+  margin: 5px;
+  padding: 5px;
 }
-.CartProdImgDiv{
-    width: 200px;
-    height: 200px;
+.CartProdImgDiv {
+  width: 200px;
+  height: 200px;
 }
-.CartProdImgDiv>img{
-    width: 100%;
-    height: 100%;
+.CartProdImgDiv > img {
+  width: 100%;
+  height: 100%;
 }
-.deleteBtn{
-    font-size: 18px;
-    font-weight: bold;
-    color: red;
-    border: 2px solid;
-    padding: 3px 6px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 5px;
+.deleteBtn {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  border: 2px solid;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
 }
-.rightSide{
-    height: fit-content;
-    margin-top: 5px;
+.rightSide {
+  height: fit-content;
+  margin-top: 5px;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
