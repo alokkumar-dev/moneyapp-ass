@@ -22,7 +22,7 @@ export const Reducer = (store = initState, { type, payload }) => {
 
 const filterData = (data, value) => {
   let newData;
-  if (value == "Apple" || value == "Samsung") {
+  if (value == "Apple" || value == "Samsung" || value=="OPPO") {
     newData = data.filter((e) => e.brand == value);
   }
   if (value == "") {

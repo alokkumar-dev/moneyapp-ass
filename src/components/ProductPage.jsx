@@ -59,6 +59,8 @@ export const ProductPage = () => {
             <option value="">Filter by category</option>
             <option value="Apple">Apple</option>
             <option value="Samsung">Samsung</option>
+            <option value="OPPO">OPPO</option>
+
           </select>
         </div>
         <div className="prodContainer">
