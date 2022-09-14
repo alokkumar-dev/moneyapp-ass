@@ -4,12 +4,18 @@ import { useSelector } from "react-redux";
 import "./Products.css";
 export const CartPage = () => {
   const [data, setData] = useState([]);
-  let { CartData } = useSelector((store) => store);
-  const handleDelete = (id) => {
-    let x = data.filter((e) => e.id != id);
+  let { CartData } = useSelector(store => store);
+  const handleDelete = id => {
+    let x = data.filter(e => e.id != id);
     console.log(x);
     setData(x);
   };
+
+
+
+
+
+  
 
   useEffect(() => {
     setData(CartData);
@@ -19,7 +25,7 @@ export const CartPage = () => {
       <div className="CartMain">
         <div className="leftSide">
           {data.length > 0 ? (
-            data.map((el) => (
+            data.map(el => (
               <div className="CartProdBox" key={el.id}>
                 <div className="CartProdImgDiv">
                   <img src={el.image} alt="product image" />

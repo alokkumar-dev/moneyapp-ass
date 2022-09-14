@@ -19,7 +19,7 @@ export const ProductPage = () => {
     });
   };
   const handleSort = (e) => {
-    const { id, value } = e.target;
+    const { value } = e.target;
     if (value == "low") {
       let sorting = Data.sort((a, b) => a.price - b.price);
       dispatch(getProducts([...sorting]));
